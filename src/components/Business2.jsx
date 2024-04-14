@@ -1,6 +1,6 @@
 import styles from "../style";
 
-const Business = () => (
+const Business2 = () => (
   <section
     id="features"
     className="relative bg-white h-72 flex items-center justify-center overflow-hidden"
@@ -8,7 +8,7 @@ const Business = () => (
     <div className="absolute inset-0 flex items-center justify-center">
       <div className="text-center">
         <h2 className={styles.heading2} style={{ color: "#131e29" }}>
-          Somos profesionales al servicio de profesionales
+          Estamos preparados para lo que su empresa necesite
         </h2>
       </div>
     </div>
@@ -18,4 +18,4 @@ const Business = () => (
   </section>
 );
 
-export default Business;
+export default Business2;

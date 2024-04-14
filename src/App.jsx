@@ -4,16 +4,18 @@ import {
   Billing,
   CardDeal,
   Business,
-  Clients,
+  Portfolio,
   CTA,
-  Stats,
   Footer,
   Testimonials,
+  Servicios,
   Hero,
+  Business2,
 } from "./components";
+import Carousel from "./components/Carousel";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
+  /*   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -26,7 +28,6 @@ const App = () => (
     </div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={` ${styles.boxWidth}`}>
-        <Stats />
         <Business />
         <Billing />
         <CardDeal />
@@ -36,7 +37,15 @@ const App = () => (
         <Footer />
       </div>
     </div>
-  </div>
+  </div> */
+  <>
+    <Carousel />
+    <Hero />
+    <Business />
+    <Servicios />
+    <Business2 />
+    <Portfolio />
+  </>
 );
 
 export default App;
